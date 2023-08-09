@@ -27,14 +27,10 @@ to add:
 - [ ] add a search input
 - [ ] add a tel input
 - [ ] add a url input
-- [ ] improve  description
+- [ ] improve description
 
 to do part 2 :  
-make form responsive,
- make form accessible,
- make form usable,
- make form look good,
- make form work using different languages for back end such as
+make form responsive, accessible, usable, look good, and work using different languages for back end such as
 
 - [ ] php
 - [ ] ruby
