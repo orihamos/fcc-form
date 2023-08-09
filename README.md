@@ -1,52 +1,68 @@
 # Survey Form
 
-<https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form>
+Link to the project: [Survey Form Project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 
-to add:
+## To-Do List
 
-- [x] add a checkbox
-- [x] add a dropdown
-- [x] add a email input
-- [x] add a number input
-- [x] add a radio button
-- [x] add a submit button
-- [x] add a text input
-- [x] add a textarea
-- [x] add a title
-- [ ] add a background image
-- [ ] add a date input
-- [ ] add a favicon
-- [ ] add a file input
-- [ ] add a footer
-- [ ] add a header
-- [ ] add a hidden input
-- [ ] add a logo
-- [ ] add a password input
-- [ ] add a range input
-- [ ] add a reset button
-- [ ] add a search input
-- [ ] add a tel input
-- [ ] add a url input
-- [ ] improve description
+### Basic Form Elements
 
-to do part 2 :  
-make form responsive, accessible, usable, look good, and work using different languages for back end such as
+- [x] Checkbox
+- [x] Dropdown
+- [x] Email Input
+- [x] Number Input
+- [x] Radio Button
+- [x] Submit Button
+- [x] Text Input
+- [x] Textarea
+- [x] Title
 
-- [ ] php
-- [ ] ruby
-- [ ] python
+### Other Form Elements
 
-make form work using different front end frameworks such as
+- [ ] Background Image
+- [ ] Date Input
+- [ ] Favicon
+- [ ] File Input
+- [ ] Footer
+- [ ] Header
+- [ ] Hidden Input
+- [ ] Logo
+- [ ] Password Input
+- [ ] Range Input
+- [ ] Reset Button
+- [ ] Search Input
+- [ ] Telephone Input
+- [ ] URL Input
+- [ ] Improve Description
 
-- [ ] bootstrap
-- [ ] vue
+## Part 2: Enhancements
 
-make form work using different frameworks such as
+### Backend Languages
 
-- [ ] angular
-- [ ] django
-- [ ] express
-- [ ] flask
-- [ ] laravel
-- [ ] rails
-- [ ] react
+Make the form work with different backend languages:
+
+- [ ] PHP
+- [ ] Ruby
+- [ ] Python
+
+### Frontend Frameworks
+
+Make the form responsive, accessible, and usable using different frontend frameworks:
+
+- [ ] Bootstrap
+- [ ] Vue.js
+
+### other Frameworks
+
+Make the form work using different JavaScript frameworks:
+
+- [ ] Angular
+- [ ] Django
+- [ ] Express
+- [ ] Flask
+- [ ] Laravel
+- [ ] Rails
+- [ ] React
+
+---
+
+This project is part of the FreeCodeCamp curriculum.
