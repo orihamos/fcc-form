@@ -1,1 +1,49 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free code camp survey form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">this form is about stuff</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="name" required>
+        <br>
+        <label for="email" id="email-label" required >Email</label>
+        <input type="email" name="email" id="email" placeholder="email" required>
+        <br>
+        <label for="age" id="number-label">Age</label>
+        <input type="number" name="age" id="number" min="1" max="120" placeholder="age">
+        <br>
+        <label for="dropdown" id="dropdown-label">Favorite Pet</label>
+        <select name="favorite pet" id="dropdown">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="bird">Bird</option>
+        </select>
+        <br>
+        <label for="radio-buttons" id="radio-buttons-label">What does your pet likes the most?</label>
+        <br>
+        <input type="radio" name="likes" id="radio-buttons-walks" value="walks">Walks
+        <input type="radio" name="likes" id="radio-buttons-sleeping" value="sleeping">Sleeping
+        <input type="radio" name="likes" id="radio-buttons-eating" value="eating">Eating
+        <br>
+        <label for="checkboxes" id="checkboxes-label">What does your pet dislikes?</label>
+        <br>
+        <input type="checkbox" name="dislikes" id="checkboxes-baths" value="baths">Baths
+        <input type="checkbox" name="dislikes" id="checkboxes-snuggles" value="snuggles">snuggles
+        <input type="checkbox" name="dislikes" id="checkboxes-loud-noises" value="loud noises">Loud noises
+        <br>
+        <label for="text-area" id="text-area-label">What is the strangest thing that your pet does?</label>
+        <br>
+        <textarea name="strange thing" id="text-area" cols="30" rows="10" placeholder="strange thing"></textarea>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+</body>
+</html>
