@@ -10,18 +10,18 @@
 
     <body class="body">
         <header class="header">
-            <h1 class="header__title">Survey Form</h1>
-            <p class="header__description">This is a form about pets</p>
+            <h1 class="header__title" id="title">Survey Form</h1>
+            <p class="header__description" id="description">This is a form about pets</p>
         </header>
         <main>
             <form id="survey-form" class="form">
-                <label for="name" class="form__label">Name</label>
+                <label for="name" class="form__label" id="name-label">Name</label>
                 <input type="text" name="name" id="name" placeholder="Enter your name" class="form__input" required>
                 <br>
-                <label for="email" class="form__label">Email</label>
+                <label for="email" class="form__label" id="email-label">Email</label>
                 <input type="email" name="email" id="email" placeholder="Enter your email" class="form__input" required>
                 <br>
-                <label for="number" class="form__label">Age</label>
+                <label for="number" class="form__label" id="number-label">Age</label>
                 <input type="number" name="age" id="number" min="1" max="120" placeholder="Enter your age"
                     class="form__input" required>
                 <br>
